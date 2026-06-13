@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Mozilla+Headline:wght@200..700&display=swap");
+@import "tailwindcss";
+
+html,
+body {
+  font-family: "DM Sans";
+  font-size: 14px;
+}
+
+.input {
+  @apply px-3 py-2.5 rounded-md border border-gray-200 hover:border-gray-400 w-full;
+}
+
+label {
+  @apply text-gray-500 text-base font-normal;
+}
+
+.button-primary {
+  @apply p-2.5 rounded-md text-white font-medium bg-gray-900 cursor-pointer;
+}
+
+.button-secondary {
+  @apply p-2.5 rounded-md text-gray-800 font-medium bg-gray-100 cursor-pointer border border-gray-200;
+}
+
+h1 {
+  font-family: "Mozilla Headline";
+  font-size: 18px;
+  font-weight: 500;
+}
