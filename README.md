@@ -27,3 +27,14 @@ The backend API must be running on `http://localhost:3030`. See `vite.config.ts`
 | `/jobs/:id` | JobDetailPage | Single job detail with status actions (assign reporter, assign editor, mark transcribed, mark completed) and payment breakdown. Protected. |
 
 All protected routes require authentication. Unauthenticated users are redirected to `/login`.
+
+## Screenshot
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/4ed9684b-7dec-48a2-8750-b3e60f26281e" /><br >
+*Figure 1: Login page.* <br >
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/5426e8bf-5277-43e6-9f32-8c01411d336b" /><br >
+*Figure 2: Dashboard page.* <br >
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/648ee823-5654-41ac-955f-5f44aa522264" /><br >
+*Figure 2: Detail of Job page.* <br >
